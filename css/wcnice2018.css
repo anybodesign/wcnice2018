@@ -144,7 +144,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .page .panel-content .entry-title, 
 .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-	font-size: 2.2rem;
+	font-size: 1.8rem;
 }
 h2.widget-title {
 	font-size: 1.2rem;
@@ -157,6 +157,21 @@ h2.widget-title {
 
 .entry-meta a {
 	color: #F59995;
+}
+
+@media only screen and (min-width: 800px) {
+
+	.page .panel-content .entry-title, 
+	.page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+		font-size: 1.5rem;
+	}		
+}
+@media only screen and (min-width: 1024px) {
+
+	.page .panel-content .entry-title, 
+	.page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+		font-size: 2rem;
+	}		
 }
 
 /* :hover */
