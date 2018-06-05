@@ -30,8 +30,9 @@
 	
 */
 
-/* @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&amp;subset=latin-ext'); */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&amp;subset=latin-ext');
 
+/*
 @font-face {
 	font-family: 'Coco Bold';
 	src: url('https://demo.anybodesign.com/wcnice18/CocoGothic-Bold.woff2') format('woff2'), url('https://demo.anybodesign.com/wcnice18/CocoGothic-Bold.woff') format('woff');;
@@ -56,6 +57,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
+*/
 
 
 /* Header */
@@ -148,7 +150,7 @@ button,
 input,
 select,
 textarea {
-	font-family: "Coco Regular", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: "Quicksand", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
