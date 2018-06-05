@@ -6,6 +6,7 @@ C'est à Nice le 19 octobre 2018
 
 ### CSS
 * Feuille de style custom
+* Polices .woff/.woff2
 
 ### Logo
 * Le logo avatar (pour Twitter etc.)
