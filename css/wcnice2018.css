@@ -95,18 +95,17 @@
 	.home .site-title a {
 		width: 460px;
 		height: 414px;
-	}	
+	}
+
+	.site-branding {
+		padding: 3em 0 1.25em 0;
+	}		
 }
 @media only screen and (min-width: 45em) {
 	.home .site-title a {
 		width: 700px;
 		height: 630px;
 	}
-/*
-	.custom-header-media::before {
-		content: none;
-	}	
-*/
 }
 @media only screen and (min-width: 75em) {
 	.home .site-title a {
