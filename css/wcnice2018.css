@@ -221,3 +221,10 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 .milestone-header {
 	background-color: #1F7DC1;
 }
+
+
+.wcorg-sponsor {
+	border-bottom: #F59995 2px dashed;
+	margin-bottom: 3em;
+	padding-bottom: 1.5em;
+}
