@@ -212,14 +212,15 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 
 /* Misc */
 
-.milestone-countdown {
+.milestone-widget {
 	border-bottom: #FDBA2D 4px solid;
 }
-.milestone-countdown, .milestone-message {
-	color: #1F7DC1;
+.milestone-countdown, 
+.milestone-message {
+	color: #1F7DC1 !important;
 }
 .milestone-header {
-	background-color: #1F7DC1;
+	background-color: #1F7DC1 !important;
 }
 
 
