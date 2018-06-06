@@ -212,8 +212,9 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 
 /* Misc */
 
-.milestone-widget {
-	border-bottom: #FDBA2D 4px solid;
+.milestone-countdown {
+	border: 0 !important;
+	border-bottom: #FDBA2D 4px solid !important;
 }
 .milestone-countdown, 
 .milestone-message {
