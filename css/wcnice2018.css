@@ -265,3 +265,8 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 .tix-attendee-form td.tix-right select {
 	width: 100% !important;
 }
+@media only screen and (min-width: 48em) {
+	.tix-attendee-form td.tix-right select {
+		width: auto !important;
+	}	
+}
