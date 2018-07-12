@@ -218,6 +218,20 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 	background-color: #F59995; 
 }
 
+
+/* Columns */
+
+@media only screen and (min-width: 48em) {
+	
+	.page-id-13 #primary .entry-header,
+	.page-id-13 #primary .entry-content { 
+		width: 100% !important;
+		float: none !important;	
+	}
+
+}
+
+
 /* Misc */
 
 .milestone-countdown {
