@@ -224,7 +224,9 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 @media only screen and (min-width: 48em) {
 	
 	.page-id-13 #primary .entry-header,
-	.page-id-13 #primary .entry-content { 
+	.page-id-13 #primary .entry-content,
+	.page-id-14 #primary .entry-header,
+	.page-id-14 #primary .entry-content { 
 		width: 100% !important;
 		float: none !important;	
 	}
@@ -254,7 +256,6 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 }
 
 
-
 .tix-ticket-form td.tix-left, .tix-private-form td.tix-left, .tix-attendee-form td.tix-left, .tix-receipt-form td.tix-left {
 	width: 50% !important;
 }
@@ -265,8 +266,22 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 .tix-attendee-form td.tix-right select {
 	width: 100% !important;
 }
+
 @media only screen and (min-width: 48em) {
 	.tix-attendee-form td.tix-right select {
 		width: auto !important;
 	}	
+}
+
+#tix-attendees li {
+	padding-right: 20px;
+	
+}
+#tix-attendees .tix-columns-3 li {
+	width: 100% !important;
+}
+@media only screen and (min-width: 48em) {
+	#tix-attendees .tix-columns-3 li {
+		width: 33.3333% !important;
+	}
 }
