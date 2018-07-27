@@ -276,7 +276,7 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 #tix-attendees li {
 	padding-right: 20px;
 }
-.tix-field.tix-attendee-twitter {
+#tix-attendees .tix-field.tix-attendee-twitter {
 	display: inline;
 	margin-left: 20px;
 }
